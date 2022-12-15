@@ -3,9 +3,14 @@ window.addEventListener('load', ()=> {
     let lat
     let tempv = document.getElementById('tempv')  
     let tdesc = document.getElementById('tdesc')  
-    let location = document.getElementById('location')  
+    let locationw = document.getElementById('location')  
     let humidity = document.getElementById('humidity') 
     
+    let refresh = document.getElementById('refresh');
+    refresh.addEventListener('click', _ => {
+            location.reload();
+    })
+
     if(navigator.geolocation){
        navigator.geolocation.getCurrentPosition( posicion => {
            lon = posicion.coords.longitude
@@ -19,10 +24,10 @@ window.addEventListener('load', ()=> {
                 console.log(data)
                 
                 let temp = Math.round(data.main.temp)
-                tempv.textContent = `${temp} °C`
+                tempv.textContent = `${temp}°C`
                 let desc = data.weather[0].description
                 tdesc.textContent = desc.toUpperCase()
-                location.textContent = data.name
+                locationw.textContent = data.name
                 humidity.textContent = `${data.main.humidity} %`
                 
                //Iconos

@@ -1,0 +1,13 @@
+
+#refresh {
+    border:none;
+    background: #3498DB; 
+    color:white;
+}
+
+#location{
+    padding: 20px;
+}
+#tempv{
+    padding: 20px;
+}
