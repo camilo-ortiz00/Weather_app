@@ -12,7 +12,8 @@ Esta aplicación utiliza Bootstrap para el diseño y la apariencia.
 ## Requisitos
 
 Asegúrate de tener una conexión a Internet para obtener datos en tiempo real del clima.
-
+## Ver app aquí:
+ - https://camilo-ortiz00.github.io/Weather_app/
 ## Uso
 
 1. Clona el repositorio.
