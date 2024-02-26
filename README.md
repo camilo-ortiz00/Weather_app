@@ -1,4 +1,4 @@
-# State Weather App
+# Weather App
 
 ## Descripción
 
@@ -7,7 +7,7 @@ Esta aplicación utiliza Bootstrap para el diseño y la apariencia.
 
 ## Características
 
-- **Actualizar Clima:** Puedes actualizar la información del clima haciendo clic en el botón de recarga (<i class="fa-solid fa-rotate-right"></i>).
+- **Actualizar Clima:** Puedes actualizar la información del clima haciendo clic en el botón de recarga.
 
 ## Requisitos
 
@@ -23,10 +23,6 @@ Asegúrate de tener una conexión a Internet para obtener datos en tiempo real d
 - HTML
 - CSS (Bootstrap)
 - JavaScript
-
-## Previsualización
-
-![Vista Previa](captura.png)
 
 ## Contribuciones
 
